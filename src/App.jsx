@@ -13,7 +13,7 @@ import SearchBar from './components/SearchBar';
 import Notifications from './components/Notifications';
 import TopPerformers from './components/TopPerformers';
 import CoinList from './components/CoinList';
-import LowPerformers from './components/LowPerformers';
+// import LowPerformers from './components/LowPerformers';
 
 const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -26,7 +26,7 @@ const App = () => {
       <CoinList searchQuery={searchQuery} />
       <Notifications />
       <TopPerformers />
-      <LowPerformers />
+      {/* <LowPerformers /> */}
     </div>
   );
 };
